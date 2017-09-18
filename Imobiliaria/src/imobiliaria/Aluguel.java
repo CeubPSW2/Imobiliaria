@@ -17,9 +17,7 @@ import javax.persistence.GeneratedValue;
  */
 @Entity
 public class Aluguel extends Imovel{
-    @Id
-    @GeneratedValue
-    private int id;
+
     private double valor;
     private int mesInicio;
     
@@ -49,13 +47,6 @@ public class Aluguel extends Imovel{
         this.mesInicio = mesInicio;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
   
     
     

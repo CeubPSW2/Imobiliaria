@@ -22,8 +22,8 @@ public class Imobiliaria {
         Session session = null;
         
         Funcionario f = new Funcionario("Romero");
-        //f.setImovelVenda("SHIS QL 3", "Brasília", "DF");
-        //f.setImovelAluguel("QND 29 LT 3", "Taguatinga", "DF");
+        f.setImovelVenda("SHIS QL 3", "Brasília", "DF");
+        f.setImovelAluguel("QND 29 LT 3", "Taguatinga", "DF");
         
         try{
             sf = HibernateUtil.getSessionFactory();

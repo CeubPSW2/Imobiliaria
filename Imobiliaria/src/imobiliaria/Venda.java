@@ -13,11 +13,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 
+@Entity
 public class Venda extends Imovel{
     
-    @Id
-    @GeneratedValue
-    private int id;
     private double valorVenda;
     private double comissao;
 
@@ -28,14 +26,6 @@ public class Venda extends Imovel{
     }
     
     public Venda(){}
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public double getValorVenda() {
         return valorVenda;
