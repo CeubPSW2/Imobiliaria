@@ -46,9 +46,5 @@ public class Aluguel extends Imovel{
     public void setMesInicio(int mesInicio) {
         this.mesInicio = mesInicio;
     }
-
-  
-    
-    
     
 }
